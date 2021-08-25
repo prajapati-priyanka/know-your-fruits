@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #9d6b53;
+  --secondary-color: #d69f7e;
+}
+body {
+  background-color: var(--primary-color);
+  font-family: "Courgette", cursive;
+}
+
+.App {
+  background-color: var(--secondary-color);
+  max-width: 60vw;
+
+  margin: 4rem auto;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: -2px 2px 2px black;
+}
+
+.App h1 {
+  padding: 1rem;
+}
+input {
+  width: 45vw;
+  margin: 2rem 1rem 1rem 1rem;
+  padding: 0.6rem;
+  border-radius: 10px;
+  outline: none;
+}
+.fruit-meaning {
+  margin: 1rem 0;
+  font-size: 1.6rem;
+  padding: 0.6rem;
+  text-decoration: underline;
+}
+.fruit-container {
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+}
+.fruit-container-items {
+  display: inline-block;
+  padding: 1rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
