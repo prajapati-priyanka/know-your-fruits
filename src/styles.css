@@ -16,9 +16,8 @@ body {
 
 .App {
   background-color: var(--secondary-color);
-  max-width: 60vw;
-
-  margin: 4rem auto;
+  width: 75vw;
+  margin: 6rem auto;
   border-radius: 10px;
   padding: 2rem;
   text-align: center;
@@ -27,22 +26,24 @@ body {
 
 .App h1 {
   padding: 1rem;
+  margin-bottom: 1rem;
 }
 input {
-  width: 45vw;
-  margin: 2rem 1rem 1rem 1rem;
+  width: 70%;
+  margin: 1rem auto;
   padding: 0.6rem;
   border-radius: 10px;
   outline: none;
 }
 .fruit-meaning {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   font-size: 1.6rem;
   padding: 0.6rem;
   text-decoration: underline;
+  text-align: center;
 }
 .fruit-container {
-  width: 90%;
+  width: 100%;
   margin: auto;
   padding: 1rem;
 }

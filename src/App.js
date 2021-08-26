@@ -43,10 +43,7 @@ export default function App() {
   return (
     <div className="App">
       <h1> Know Your Fruits </h1>
-      <input
-        onChange={inputChangeHandler}
-        placeholder=" Enter Fruits Emoticons.. "
-      />
+      <input onChange={inputChangeHandler} placeholder=" Enter Fruits.. " />
       <div className="fruit-meaning"> {meaning} </div>
       <div className="fruit-container">
         <ul>
